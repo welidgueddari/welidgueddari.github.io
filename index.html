@@ -12,6 +12,7 @@
     <!-- Favicons -->
     <link href="./assets/img/MyLogo.png" rel="icon">
     <link href="./assets/img/MyLogo.png" rel="apple-touch-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
@@ -25,6 +26,7 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- =======================================================
   * Template Name: Laura - v4.7.0
@@ -68,6 +70,11 @@
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
         <!-- .navbar -->
+        <script>
+            AOS.init({
+                duration: 1200,
+            })
+        </script>
 
     </header>
     <!-- End Header -->
@@ -75,12 +82,12 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero">
         <div class="hero-container">
-            <img src="./assets/img/MyLogoWhite.png" class="mb-3 " style="width: 150px" alt="">
-            <h1>Gueddari Welid</h1>
-            <h2>I'm a Professional Fullstack web developer
+            <img data-aos="fade-up" src="./assets/img/MyLogoWhite.png" class="mb-3 " style="width: 150px" alt="">
+            <h1 data-aos="fade-up" data-aos-delay="200">Gueddari Welid</h1>
+            <h2 data-aos="fade-up" data-aos-delay="400">I'm a Professional Fullstack web developer
                 <i class="bi bi-code-slash"></i>
             </h2>
-            <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
+            <a href="#about" class="btn-scroll scrollto" title="Scroll Down" data-aos="fade-up" data-aos-delay="550"><i class="bx bx-chevron-down"></i></a>
         </div>
     </section>
     <!-- End Hero -->
