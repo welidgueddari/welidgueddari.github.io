@@ -146,6 +146,17 @@ h6 {
     color: #ffb727;
 }
 
+.badge {
+    background-color: #ffb727;
+}
+
+.badge:hover {
+    background-color: transparent;
+    border: 1px solid #ffb727;
+    color: #ffb727;
+    transition: .5s;
+}
+
 .navbar .dropdown ul {
     display: block;
     position: absolute;
