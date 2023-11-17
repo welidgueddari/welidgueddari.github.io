@@ -10,9 +10,9 @@
   document.querySelector(".theme-btn").addEventListener("click", () => {
     document.body.classList.toggle("light-mode");
     if (document.body.classList.contains("light-mode")) {
-      document.getElementById("mylogo").src = "/img/logos/MyLogo.png";
+      document.getElementById("mylogo").src = "img/logos/MyLogo.png";
     } else {
-      document.getElementById("mylogo").src = "/img/logos/MyLogoWhite.png";
+      document.getElementById("mylogo").src = "img/logos/MyLogoWhite.png";
     }
   });
 })();
